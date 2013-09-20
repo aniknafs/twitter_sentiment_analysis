@@ -18,3 +18,10 @@ More information about the sentiment scores can be obtained from [AFINN-README.t
 
 e.g. 
 > python tweet_analysis.py 'google' '2013-05-15' '2013-05-14' 10
+
+UPDATE: Looks like in the new Twitter API v1.1, authentication is obligatory to use the 
+search API. Therefore, the program could not retreive tweets without providing the 
+required oauth token. 
+
+To get the token you need to create an app at https://dev.twitter.com/apps and then create 
+an access token.
